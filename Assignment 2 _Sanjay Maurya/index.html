@@ -7,18 +7,20 @@
     <!-- Bootstrap CSS file -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
 </head>
 <body>
 
     <header>
-        <dir class="container-fluid">
+        <div class="container-fluid">
             <nav class="navbar navbar-expand-lg">
               <a class="navbar-brand" href="#">
                 <img src="images/fitnessnu-logo.png" width="50" height="80" alt="">
               </a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class="fas fa-bars" style="-webkit-filter: grayscale(100%); color: white;"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
                 <div class="mr-auto"></div>
@@ -38,16 +40,16 @@
                 </ul>
               </div>
             </nav>
-        </dir>
-    <div class="container ">
+        </div>
+    <div class="container">
 
-        <div class="row d-flex justify-content-center cover">
-            <div class="col-md-8 col-sm-2">
-                <img src="images/banner-bg.jpg" class="img-responsive">
+        <div class="row d-flex justify-content-end cover">
+            <div class="col-md-8 col-xs-8">
+                <img src="images/banner-bg.jpg" class="img-fluid">
             </div>
         </div>
         <div class="row d-flex justify-content-start r1">
-            <div class="col-8">
+            <div class="col-md-8">
                 <h6 id="s1">STRONGER <b id="s2">&amp; STRONGER</b></h6>
                 <div class="d-flex flex-row">
                     <h1 class="font-weight-bold text-nowrap">FITNESS</h1>
@@ -62,8 +64,8 @@
     <main>
         <section class="section1 pt-4 pb-4">
             <div class="container pt-4 pb-4">
-                <div class="row d-flex flex-row justify-content-between align-items-center">
-                    <div class="col-6">
+                <div class="row d-flex flex-row justify-content-around align-items-center">
+                    <div class="col-md-6 col-sm-12 col-xs-12">
                         <h1 class="pt-4">TRAINING</h1>
                          <p class="text-secondary pt-2">
                             Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut a nisl congue, porta sapien in, accumsan leo. Etiam malesuada, nisi vel pellentesque sollicitudin, quam nisi euismod felis, at venenatis lacus tellus a purus. Donec ultrices imperdiet erat. Donec lacinia dui risus, ac gravida ante luctus at.
@@ -72,7 +74,7 @@
                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fermentum nunc nec turpis sodales, eget consectetur magna feugiat. Aliquam
                          </p>
                     </div>
-                    <div class="col-6 d-flex justify-content-center align-items-center">
+                    <div class="col-md-6 col-sm-12 col-xs-12 d-flex justify-content-center align-items-center">
                         <img src="images/img01.jpg" alt="">
                         <div  id="play-icon">
                             <img src="images/videoPlayIcon.png" alt="">
@@ -86,52 +88,77 @@
         <section class="section2">
             <div class="container-fluid ">
                 <div class="row" id="frame-row">
-                    <div class="col-6" id="frame">
+                    <div class="col-md-6 col-sm-12 col-xs-12" id="frame">
                         
                     </div>
                 </div>
             </div>
             <div class="container">
                 <div class="row d-flex flex-row justify-content-between align-items-center">
-                    <dir class="col-6">
+                    <div class="col-md-6 col-sm-12 col-xs-12">
                         <img src="images/img02.jpg" alt="">
-                    </dir>
-                    <dir class="col-6">
+                    </div>
+                    <div class="col-md-6 col-sm-12 col-xs-12">
                         <h1 class="font-weight-bold">JOIN NOW</h1>
                         <p class="font-weight-bold pt-2 pb-2">Duis efficitur non magna id viverra. Nullam maximus semper  interdum.</p>
-                        <input type="text" class="form-control" name="name" placeholder="YOUR NAME">
+                        <form action="/action_page.php">
+                            <input type="text" class="form-control" name="name" placeholder="YOUR NAME">
 
-                        <input type="text" class="form-control" name="gender" placeholder="GENDER">
+                            <input type="text" class="form-control" name="gender" placeholder="GENDER">
 
-                        <input type="email" class="form-control" name="email" placeholder="EMAIL">
+                            <input type="email" class="form-control" name="email" placeholder="EMAIL">
 
-                        <input type="text" class="form-control" name="phone" placeholder="PHONE NUMBER">
+                            <input type="text" class="form-control" name="phone" placeholder="PHONE NUMBER">
 
-                        <button type="submit" class="btn btn-primary col-12">JOIN OUR COMMUNITY</button>
-                    </dir>
+                            <button type="submit" class="btn btn-primary col-md-12 col-sm-12 mb-4 pt-2 pb-2">JOIN OUR COMMUNITY</button>
+                        </form>
+                    </div>
                 </div>
 
             </div>
         </section>
 
-        <section class="section3 pb-4">
+        <section class="section3">
             <div class="container pt-4 pb-4">
-                <div class="content text-left pt-4" style="max-width: 45vw;">
-                    <h1>FITNESS RESULTS</h1>
+                <div class="row">
+                    <div class="col-md-8 col-sm-12 col-xs-12">
+                        <h1>FITNESS RESULTS</h1>
                      <p class="text-secondary pt-2">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fermentum nunc nec turpis sodales, eget consectetur magna feugiat.
                     </p>
+                    </div>
                  </div>
                     
-                 <div class="pictures d-flex flex-row justify-content-between pt-4 pb-4">
-                     <div class="img pr-4">
-                         <img src="images/slide01.jpg" alt="" class="rounded-bottom">
+                 <div class="d-flex flex-row justify-content-between pt-4 pb-4 mr-auto">
+                     <div class="col-md-4 slides">
+                         <img src="images/slide01.jpg" class="rounded slide">
+                         <div class="middle">
+                            <div class="text">
+                                <h5>ALEX</h5>
+                                <p>20 kg weight loss in 6 months</p>
+                            </div>
+                         </div>
+                         <img src="images/slidesBottom.png" id="over-img">
                      </div>
-                     <div class="img pr-4">
-                         <img src="images/slide02.jpg" alt="">
+                     <div class="col-md-4 slides">
+                         <img src="images/slide02.jpg" class="rounded slide">
+                         <div class="middle">
+                            <div class="text">
+                                <h5>DANNY</h5>
+                                <p>6 packs abs in 3 months</p>
+                            </div>
+                         </div>
+                         <img src="images/slidesBottom.png" id="over-img">
                      </div>
-                     <div class="img">
-                         <img src="images/slide03.jpg" alt="">
+                     <div class="col-md-4 slides">
+                         <img src="images/slide03.jpg" class="rounded slide">
+                         <div class="middle">
+                            <div class="text">
+                                <h5>KATRINE</h5>
+                                <p>40 kg weight loss in 11 months</p>
+                            </div>
+                         </div>
+                         <img src="images/slidesBottom.png" id="over-img">
                      </div>
                  </div>
                 </div>
@@ -141,7 +168,8 @@
     <footer>
         <div class="container pt-4 pb-4">
             <h1 class="pt-4 pb-4">OUR PARTNERS</h1>
-            <div class="patners d-flex flex-row justify-content-around pt-4 pb-4">
+            <div class="col-md-12">
+            <div class="d-flex flex-row justify-content-around pt-4 pb-4" id="partners">
                 <div class="partner">
                     <img src="images/p1.png" alt="" class="pl-3">
                     <p class="readmore pt-4"><a href="#">Read More</a></p>
@@ -158,6 +186,7 @@
                     <img src="images/p4.png" alt="">
                     <p class="readmore pt-4"><a href="#">Read More</a></p>
                 </div>
+            </div>
             </div>
         </div>
     </footer>

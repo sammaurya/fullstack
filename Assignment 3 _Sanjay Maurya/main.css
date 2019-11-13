@@ -1,0 +1,131 @@
+@font-face {
+	font-family: "MyriadProSemiBoldCondensed";
+	src: url("fonts/Myriad-Pro-Semibold-Condensed_31644.eot");
+	src: url("fonts/Myriad-Pro-Semibold-Condensed_31644.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "MyriadProBold";
+	src: url("fonts/myriadpro-bold.eot");
+	src: url("fonts/myriadpro-bold.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "MyriadProLight";
+	src: url("fonts/myriadpro-light.eot");
+	src: url("fonts/myriadpro-light.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "MyriadProRegular";
+	src: url("fonts/myriadpro-regular.eot");
+	src: url("fonts/myriadpro-regular.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "MyriadProSemiBold";
+	src: url("fonts/myriadpro-semibold.eot");
+	src: url("fonts/myriadpro-semibold.ttf") format("truetype");
+}
+
+:root {
+	--bg-color: black;
+	--h1: #6ABCE2;
+	--white: #FCFCFC;
+	--grey-d: #505051;
+	--grey: #B7B5B7;
+	--card-title: brown;
+	--darkgrey: #505051;
+}
+
+.btn-primary {
+	background-color: brown;
+	font-family: "MyriadProRegular";
+	font-size: 13px;
+}
+
+* {
+	box-sizing: border-box;
+	font-family: "MyriadProRegular", "Arial", "sans-serif";
+}
+
+header,
+section {
+	overflow-x: hidden;
+}
+
+/* Section Number */
+.numbers {
+	background-color: whitesmoke;
+}
+
+.num1 {
+	font-family: "MyriadProBold";
+	font-size: 42px;
+	color: var(--darkgrey);
+	padding: 0;
+	margin-bottom: 0;
+}
+
+.num2 {
+	font-family: "MyriadProSemiBold";
+	font-size: 24px;
+	color: brown;
+	padding: 0;
+	margin-top: 0;
+}
+
+.numbers b {
+	font-family: "MyriadProLight";
+}
+
+/* Section Number Ends*/
+/* Section Cards Starts*/
+.card {
+	border-radius: 0px;
+}
+
+.card-body {
+	padding-top: 12px;
+	padding-bottom: 0px;
+}
+
+.card-title {
+	color: var(--card-title);
+	text-align: center;
+	font-family: "MyriadProSemiBold";
+	margin-bottom: 0;
+}
+
+.card-text {
+	font-family: "MyriadProSemiBold";
+	font-size: 14px;
+	padding-top: 4px;
+	margin-bottom: 0;
+	line-height: 1.2;
+}
+
+.p1 {
+	padding: 0%;
+	margin-top: 4px;
+	margin-bottom: 8px;
+	font-size: 12px;
+}
+
+.p1 i {
+	font-family: "MyriadProBold";
+}
+
+/* Section Cards Ends*/
+
+
+
+
+
+.t1,
+.t2,
+.t3,
+.t4,
+.t5 {
+	color: white;
+}
