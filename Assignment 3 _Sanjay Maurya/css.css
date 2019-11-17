@@ -1,0 +1,438 @@
+@font-face {
+    font-family: CustomFont1;
+    src: url('fonts/myriadpro-regular.woff');
+}
+
+@font-face {
+    font-family: CustomFont2;
+    src: url('fonts/myriadpro-semibold.woff');
+}
+
+
+@font-face {
+    font-family: CustomFont3;
+    src: url('fonts/myriadpro-semibold.ttf');
+}
+
+
+#container1 {
+    font-family: CustomFont1;
+    width: 1100px;
+    height: 90px;
+    background-image: url('images/logo.png');
+    background-repeat: no-repeat;
+    background-size: 20% 90%;
+    background-position: center;
+}
+
+.navbar a {
+    color: #555;
+    font-size: 15px;
+
+}
+
+.red-button {
+    border: none;
+    border-radius: 3px;
+    background-color: #CA2828;
+    color: white;
+    font-size: 12px;
+    padding: 3px 10px;
+}
+
+
+
+#arrow {
+    width: 14px;
+    height: 20px;
+    background-image: url('images/arrow-sprite.png');
+    background-position: -27px -2px;
+    background-color: #CA2828;
+    border: 0px;
+
+}
+
+#arrow-2 {
+    width: 15px;
+    height: 20px;
+    background-image: url('images/arrow-sprite.png');
+    background-position: 0px 0px;
+    margin-left: 10px;
+
+}
+
+.navig {
+    background-color: #DDD;
+
+}
+
+.nav-left {
+    background-image: url('images/banner_left_shape_white.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 40px 100%;
+}
+
+#bottom-background {
+    margin-top: 35px;
+    height: 5px;
+    background-color: #DDD;
+
+}
+
+.navbar a:hover {
+    font-weight: bold;
+}
+
+#social {
+    background-image: url('images/social_ic.png');
+    background-repeat: no-repeat;
+    background-size: 35% 60%;
+    background-position: center;
+}
+
+#container2 {
+    width: 1100px;
+    height: 420px;
+    background-image: url('images/banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#salutelady {
+    background-image: url('images/banner_home_img.png');
+    background-repeat: no-repeat;
+    background-size: 60% 100%;
+    background-position-x: right;
+}
+
+.banner-phrase1 {
+    text-align: center;
+    width: 220px;
+    padding: 3px;
+    font-size: 25px;
+    margin: 0px;
+    color: white;
+    background-image: url('images/banner_left_shape.png'), url('images/banner_right_shape.png');
+    background-position: left, right;
+    background-size: 20px 100%, 200px 100%;
+    background-repeat: no-repeat, no-repeat;
+
+
+}
+
+#block1 {
+    margin-top: 60px;
+    margin-left: 120px;
+}
+
+#block2 {
+    margin-left: 240px;
+}
+
+#block3 {
+    margin-left: 360px;
+
+}
+
+
+.banner-phrase2 {
+    text-align: center;
+    padding: 3px;
+    font-size: 20px;
+    font-family: CustomFont3;
+    margin: 0px;
+    color: #CA2828;
+    background-image: url('images/banner_left_shape_white.png'), url('images/banner_right_shape_white.png');
+    background-position: left, right;
+    background-repeat: no-repeat, no-repeat;
+}
+
+#block4 {
+    margin-top: 60px;
+    width: 320px;
+    background-size: 20px 100%, 300px 100%;
+    margin-left: 240px;
+
+}
+
+#block5 {
+    width: 240px;
+    background-size: 20px 100%, 220px 100%;
+    margin-left: 360px;
+}
+
+
+
+#container3 {
+    min-width: 1080px;
+    max-width: 1100px;
+    height: 120px;
+    background-color: lightgray;
+    font-family: CustomFont1;
+}
+
+.donatehead {
+    margin: 0px;
+    padding-left: 62px;
+    font-size: 30px;
+
+}
+
+.makered {
+    margin: 0px;
+    padding-left: 62px;
+    font-size: 18px;
+    color: #CA2828;
+}
+
+#container4 {
+
+    width: 1100px;
+    height: 580px;
+    font-family: CustomFont1;
+
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#cardbox {
+    margin-top: 30px;
+    height: 370px;
+    width: 960px;
+    margin-left: 45px;
+}
+
+#card1 {
+    background-image: url('images/role_impact_ic.png');
+    background-position: right bottom;
+    background-size: 100px 150px;
+    background-repeat: no-repeat;
+}
+
+#card2 {
+    background-image: url('images/our_service_ic.png');
+    background-position: right bottom;
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+}
+
+#card3 {
+    background-image: url('images/get_involved_ic.png');
+    background-position: right bottom;
+    background-size: 100px 150px;
+    background-repeat: no-repeat;
+}
+
+
+.card-img-top {
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.card-title {
+    font-family: CustomFont2;
+    font-size: 23px;
+    text-align: center;
+    color: #CA2828;
+
+}
+
+.card-text {
+    width: 200px;
+    font-size: 14px;
+}
+
+#service-list {
+    padding-left: 3px;
+    font-size: 13px;
+    list-style-image: url("images/service_arrow.png");
+    margin-bottom: 40px;
+
+}
+
+#cardboxbottom {
+    margin-left: 3px;
+    width: 930px;
+    margin-top: 30px;
+    margin-left: 58px;
+    height: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#bottomleft {
+    background-image: url('images/donate_divider.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: #484747
+}
+
+#givehead {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-left: 15px;
+}
+
+#donationpara {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+
+#donate-button {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+    border: none;
+    background-color: white;
+    background-image: url('images/donate_btn_bg.png');
+}
+
+#container5 {
+    width: 1100px;
+    height: 350px;
+    font-family: CustomFont2;
+    background-image: url('images/event_bg.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+#Questions {
+    height: 300px;
+    text-align: center;
+    color: white;
+}
+
+.QuestionForm {
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.QuestionForm input {
+    height: 25px;
+    width: 115px;
+}
+
+.QuestionForm textarea {
+    height: 40px;
+    color: gray;
+}
+
+
+#eventlist {
+
+    list-style: none;
+    padding-left: 0px;
+    font-size: 12px;
+
+}
+
+
+
+#Questions #para1 {
+    padding-bottom: 0px 0px;
+    margin: 0px 0px;
+    font-size: 25px;
+}
+
+#Questions #para2 {
+
+    padding: 0px;
+    margin: 0px;
+    font-size: 15px;
+}
+
+#Questions #para3 {
+    padding: 0px;
+    margin: 0px;
+    font-size: 20px;
+}
+
+#sub-button {
+    border: none;
+    border-radius: 3px;
+    background-color: gray;
+    color: white;
+    font-size: 15px;
+    padding: 6px 10px;
+    height: 35px;
+}
+
+
+
+#container6 {
+    width: 1100px;
+    height: 350px;
+    font-family: CustomFont2;
+    background-image: url('images/contact_us_bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#domore #head1 {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 50px;
+
+
+}
+
+#domore #para1 {
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-size: 20px;
+
+}
+
+#domore #para2 {
+    margin: 0px;
+    padding: 0px;
+    color: gray;
+    font-size: 18px;
+}
+
+#contactform .form-inline {
+    margin-bottom: 10px;
+
+}
+
+#contactform input {
+    margin-right: 10px;
+    width: 195px;
+    height: 25px;
+    font-size: 12px;
+}
+
+#contactus {
+    height: 230px;
+    background-image: url('images/contact_us_img.png');
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border: 2px solid white;
+
+}
+
+#container7 {
+    height: 40px;
+    width: 1100px;
+
+}
+
+.copyright {
+    margin-left: 150px;
+    margin-top: 8px;
+    font-size: 12px;
+    color: white;
+}
