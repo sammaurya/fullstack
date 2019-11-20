@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "MyriadProSemiBoldCondensed";
+    src: url("fonts/Myriad-Pro-Semibold-Condensed_31644.eot");
+    src: url("fonts/Myriad-Pro-Semibold-Condensed_31644.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "MyriadProBold";
+    src: url("fonts/myriadpro-bold.eot");
+    src: url("fonts/myriadpro-bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "MyriadProLight";
+    src: url("fonts/myriadpro-light.eot");
+    src: url("fonts/myriadpro-light.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "MyriadProRegular";
+    src: url("fonts/myriadpro-regular.eot");
+    src: url("fonts/myriadpro-regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "MyriadProSemiBold";
+    src: url("fonts/myriadpro-semibold.eot");
+    src: url("fonts/myriadpro-semibold.ttf") format("truetype");
+}
