@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+}
+:root{
+	--darkblue: blue;
+	--lightblue: #6ABCE2;
+	--white: #FCFCFC;
+	--grey-d: #505051;
+    --grey: #B7B5B7;
+    --greenlight: green;
+}
+.wrapper{
+    width: 100%;
+}
+.container{
+    width: 1100px;
+    margin: 0 auto;
+    content: "";
+    display: table;
+    clear: both;
+}
+.container-nav{
+    position: relative;
+}
+.logo{
+    float: left;
+}
+.logo h1{
+    color: blue;
+    font-weight: bolder;
+}
+.navigation{
+    float: right;
+    margin-top: 18px;
+}
+.navigation ul{
+    list-style-type: none;
+}
+.navigation ul li{
+    display: inline;
+    margin-left: 24px;
+    font-weight: 600;
+    font-size: medium;
+    
+}
+.navigation ul li a{
+    text-decoration: none;
+    color: var(--lightblue);
+}
+.navigation a:hover{
+    color: var(--darkblue);
+}
+.navigation a:active{
+    color: var(--darkblue);
+}
+.mini-cart{
+    position: absolute;
+    background-image: url(images/list_page/Rounded-Rectangle-2.png);
+    color: whitesmoke;
+    padding: 5px 20px;
+    right: 0;
+    bottom: -34px;
+}
+
+.mini-cart p{
+    display: inline;
+    font-weight: 600;
+    font-size: larger;
+    margin: 0 7px;
+}
+.product-section{
+    background-image: url(images/baby-bg.webp);
+    background-repeat: repeat;
+}
+.head-text{
+    text-align: center;
+    color: whitesmoke;
+    margin: 50px 0;
+    font-size: xx-large;
+    font-weight: 900;
+}
+
+.left-card{
+    width: 270px;
+    text-align: center;
+    background-image: url(images/list_page/Rounded-Rectangle-1.png);
+    padding: 20px 20px;
+    float: left;
+    border-radius: 30px;
+}
+.left-card h2{
+    color: var(--greenlight);
+}
+.left-card a img{
+    margin: 10px 0px;
+}
+.product-card-section{
+    text-align: center;
+}
+.product-card{
+    margin-left: 70px;
+    margin-bottom: 50px;
+    background-color: whitesmoke;
+    width: 180px;
+    border-radius: 10px;
+    float: left;
+}
+.top{
+    background-image: url(images/list_page/rec-blue.png);
+}
+.top h3{
+    text-align: center;
+    color: whitesmoke;
+    margin: 0px;
+}
+.product-card .bottom{
+    padding: 15px 0;
+}
+#product-image{
+    padding-bottom: 10px;
+}
+.container-footer{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: 200;
+}
+.footer-left{
+    float: left;
+    color: var(--grey);
+}
+.footer-right{
+    float: right;
+    
+}
+.footer-right ul{
+    list-style-type: none;
+}
+.footer-right ul li{
+    float: left;
+    margin-left: 100px;
+    color: var(--grey);
+    font-weight: 600;
+}
+.footer-right ul li a{
+    text-decoration: none;
+    color: var(--grey);
+    font-weight: 600;
+}
